@@ -1,8 +1,8 @@
 public class Person {
-    private int id;
-    private String firstNAme;
-    private String lastName;
-    private int age;
+    public int id;
+    public String firstNAme = "undefined";
+    public String lastName = "undefined";
+    public int age;
 
     public Person(int id , int age , String firstNAme , String  lastName)
     {
